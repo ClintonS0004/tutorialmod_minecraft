@@ -1,4 +1,9 @@
 {
   "item.tutorialmod.raw_modblock": "Raw ModBlock",
-  "item.tutorialmod.modblock": "ModBlock"
+  "item.tutorialmod.modblock": "ModBlock",
+
+  "block.tutorialmod.modblock_block": "Mod Block",
+  "block.tutorialmod.raw_modblock_block": "Raw Mod Block",
+
+  "itemgroup.modblock": "ModBlock Group"
 }
