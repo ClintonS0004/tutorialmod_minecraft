@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "tutorialmod",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Tutorial mod",
+	"description": "This is an example description! My mod is all about having fun!",
 	"authors": [
-		"Me!"
+		"Clinton!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,18 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.Clinton.tutorialexample.TutorialMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+          "com.Clinton.tutorialexample.TutorialModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"tutorialmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

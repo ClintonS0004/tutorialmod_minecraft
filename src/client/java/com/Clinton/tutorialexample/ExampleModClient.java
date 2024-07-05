@@ -1,4 +1,4 @@
-package com.example;
+package com.Clinton.tutorialexample;
 
 import net.fabricmc.api.ClientModInitializer;
 
