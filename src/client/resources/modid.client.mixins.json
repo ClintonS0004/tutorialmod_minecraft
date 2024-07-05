@@ -3,7 +3,7 @@
 	"package": "com.example.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-      "com.Clinton.tutorialexample.mixin.client.ExampleClientMixin"
+      "com.Clinton.tutorialmod.mixin.client.ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

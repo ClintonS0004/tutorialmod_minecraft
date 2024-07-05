@@ -1,4 +1,4 @@
-package com.Clinton.tutorialexample.mixin;
+package com.Clinton.tutorialmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

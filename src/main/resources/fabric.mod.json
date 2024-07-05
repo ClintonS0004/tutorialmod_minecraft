@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.Clinton.tutorialexample.TutorialMod"
+			"com.Clinton.tutorialmod.TutorialMod"
 		],
 		"client": [
-          "com.Clinton.tutorialexample.TutorialModClient"
+          "com.Clinton.tutorialmod.TutorialModClient"
 		]
 	},
 	"mixins": [
