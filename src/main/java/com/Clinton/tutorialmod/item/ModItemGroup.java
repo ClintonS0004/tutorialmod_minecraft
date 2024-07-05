@@ -1,18 +1,26 @@
 package com.Clinton.tutorialmod.item;
 
+import com.Clinton.tutorialmod.TutorialMod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupBuilderImpl;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-//    public static final ItemGroup MODBLOCK = FabricItemGroup.builder()
-//            .displayName(Text.literal("Clinton's Blocks"))
-//            .icon(() -> new ItemStack(ModItems.RAW_MODBLOCK))
-//            .build();
-    public static final RegistryKey<ItemGroup> MOD_BLOCK = RegistryKey.of(RegistryKeys.ITEM_GROUP, ModItems.id("Clinton's Blocks"));
+
+    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
+            ModItems.id("ruby"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modblock"))
+                    .icon(() -> new ItemStack(ModItems.MODBLOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.MODBLOCK);
+                        entries.add(ModItems.RAW_MODBLOCK);
+//                        entries.add(Items.DIAMOND);
+                    }).build());
+
+    public static void registerItemGroups() {
+        TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
+    }
+
 }
