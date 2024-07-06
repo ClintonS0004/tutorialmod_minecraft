@@ -12,20 +12,20 @@ import net.minecraft.text.Text;
 
 public class ModItemGroup {
 
-    public static final ItemGroup MODBLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
-            TutorialMod.id("modblock"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tutorialmod.modblock"))
+    public static final ItemGroup MODBLOCK_GROUP = FabricItemGroup.builder()
+                .displayName(Text.translatable("itemgroup.tutorialmod.modblock"))
                     .icon(() -> new ItemStack(ModItems.MODITEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MODITEM);
                         entries.add(ModItems.RAW_MODITEM);
 //                        entries.add(Items.DIAMOND);
                         entries.add(ModBlocks.MODBLOCK);
                         entries.add(ModBlocks.RAW_MODBLOCK);
-                    }).build());
+                    }).build();
 
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
         Registry.register(Registries.ITEM_GROUP, TutorialMod.id("modblock"), MODBLOCK_GROUP);
+
     }
 
 }

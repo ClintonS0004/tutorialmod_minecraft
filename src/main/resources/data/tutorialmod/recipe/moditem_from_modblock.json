@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "blocks",
   "ingredients": [
     {
       "item": "tutorialmod:modblock"
@@ -8,6 +8,6 @@
   ],
   "result": {
     "item": "tutorialmod:moditem",
-    "count": 4
+    "count": 9
   }
 }
