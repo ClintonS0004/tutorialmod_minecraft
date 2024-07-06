@@ -5,5 +5,5 @@
   "block.tutorialmod.modblock": "Mod Block",
   "block.tutorialmod.raw_modblock": "Raw Mod Block",
 
-  "itemgroup.modblock": "ModBlock Group"
+  "itemgroup.tutorialmod.modblock": "Mod Block Group"
 }

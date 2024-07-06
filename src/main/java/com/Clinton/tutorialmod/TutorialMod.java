@@ -2,6 +2,7 @@ package com.Clinton.tutorialmod;
 
 import com.Clinton.tutorialmod.block.ModBlocks;
 import com.Clinton.tutorialmod.item.ModItems;
+import com.Clinton.tutorialmod.item.ModItemGroup;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -28,6 +29,9 @@ public class TutorialMod implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		ModItems.registerModItems();
+		ModItemGroup.registerItemGroups();
+
 		ModBlocks.registerModBlocks();
+
 	}
 }

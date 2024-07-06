@@ -7,13 +7,14 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 
 public class ModItemGroup {
 
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup MODBLOCK_GROUP = Registry.register(Registries.ITEM_GROUP,
             TutorialMod.id("modblock"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modblock"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tutorialmod.modblock"))
                     .icon(() -> new ItemStack(ModItems.MODITEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MODITEM);
                         entries.add(ModItems.RAW_MODITEM);
@@ -24,6 +25,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
+        Registry.register(Registries.ITEM_GROUP, TutorialMod.id("modblock"), MODBLOCK_GROUP);
     }
 
 }

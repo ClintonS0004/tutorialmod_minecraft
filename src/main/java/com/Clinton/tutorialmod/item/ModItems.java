@@ -31,7 +31,7 @@ public class ModItems {
     public static void registerModItems() {
         TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        // ItemGroupEvents.modifyEntriesEvent(ItemGroups.getGroups().).register(ModItems::addItemsToIngredientItemGroup);
     }
 
 }
