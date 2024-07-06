@@ -12,14 +12,14 @@ import net.minecraft.text.Text;
 public class ModItemGroup {
 
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            TutorialMod.id("ruby"),
+            TutorialMod.id("modblock"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modblock"))
-                    .icon(() -> new ItemStack(ModItems.MODBLOCK)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.MODBLOCK);
-                        entries.add(ModItems.RAW_MODBLOCK);
+                    .icon(() -> new ItemStack(ModItems.MODITEM)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.MODITEM);
+                        entries.add(ModItems.RAW_MODITEM);
 //                        entries.add(Items.DIAMOND);
-                        entries.add(ModBlocks.MODBLOCK_BLOCK);
-                        entries.add(ModBlocks.RAW_MODBLOCK_BLOCK);
+                        entries.add(ModBlocks.MODBLOCK);
+                        entries.add(ModBlocks.RAW_MODBLOCK);
                     }).build());
 
     public static void registerItemGroups() {

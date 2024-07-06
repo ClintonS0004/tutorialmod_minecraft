@@ -12,8 +12,8 @@ import net.minecraft.registry.RegistryKey;
 
 public class ModItems {
 
-    public static final Item MODBLOCK = registerItem("modblock", new Item(new Item.Settings()));
-    public static final Item RAW_MODBLOCK = registerItem("raw_modblock", new Item(new Item.Settings()));
+    public static final Item MODITEM = registerItem("moditem", new Item(new Item.Settings()));
+    public static final Item RAW_MODITEM = registerItem("raw_moditem", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item, RegistryKey<ItemGroup> group){
         return registerItem(name, new Item(new Item.Settings()));
@@ -24,8 +24,8 @@ public class ModItems {
     }
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(MODBLOCK);
-        entries.add(RAW_MODBLOCK);
+        entries.add(MODITEM);
+        entries.add(RAW_MODITEM);
     }
 
     public static void registerModItems() {
