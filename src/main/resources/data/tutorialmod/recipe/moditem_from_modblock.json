@@ -7,7 +7,7 @@
     }
   ],
   "result": {
-    "item": "tutorialmod:moditem",
+    "id": "tutorialmod:moditem",
     "count": 9
   }
 }
