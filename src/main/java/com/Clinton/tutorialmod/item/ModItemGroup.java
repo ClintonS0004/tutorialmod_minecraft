@@ -18,6 +18,7 @@ public class ModItemGroup {
                         entries.add(ModItems.MODITEM);
                         entries.add(ModItems.MODITEM_NUGGET);
                         entries.add(ModItems.RAW_MODITEM);
+                        entries.add(ModItems.METAL_DETECTOR);
 //                        entries.add(Items.DIAMOND);
                         entries.add(ModBlocks.MODBLOCK);
                         entries.add(ModBlocks.MODITEM_ORE);

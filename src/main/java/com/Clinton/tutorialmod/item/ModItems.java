@@ -1,6 +1,7 @@
 package com.Clinton.tutorialmod.item;
 
 import com.Clinton.tutorialmod.TutorialMod;
+import com.Clinton.tutorialmod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -15,6 +16,8 @@ public class ModItems {
     public static final Item MODITEM = registerItem("moditem", new Item(new Item.Settings()));
     public static final Item RAW_MODITEM = registerItem("raw_moditem", new Item(new Item.Settings()));
     public static final Item MODITEM_NUGGET = registerItem("moditem_nugget", new Item(new Item.Settings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new Item.Settings().maxDamage(1024)));
 
 //    private static Item registerItem(String name, Item item, RegistryKey<ItemGroup> group){
 //        return registerItem(name, new Item(new Item.Settings()));

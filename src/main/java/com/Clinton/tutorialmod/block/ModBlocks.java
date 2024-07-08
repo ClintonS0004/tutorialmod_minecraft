@@ -22,10 +22,11 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
 
     public static final Block MODITEM_ORE = registerBlock("moditem_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
-
-    public static final Block MODBLOCK_ORE = registerBlock("modblock_ore",
+            //new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.copyShallow(IRON_ORE).mapColor(MapColor.DARK_GREEN).strength(2f)));
+
+//    public static final Block MODBLOCK_ORE = registerBlock("modblock_ore",
+//            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.copyShallow(IRON_ORE).mapColor(MapColor.DARK_GREEN).strength(2f)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
