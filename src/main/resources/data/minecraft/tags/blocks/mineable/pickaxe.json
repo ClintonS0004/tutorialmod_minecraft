@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tutorialmod:modblock",
-    "tutorialmod:raw_modblock"
+    "tutorialmod:raw_modblock",
+    "tutorialmod:moditem_ore"
   ]
 }

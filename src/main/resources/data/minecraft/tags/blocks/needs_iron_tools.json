@@ -3,5 +3,6 @@
   "values": [
     "tutorialmod:modblock",
     "tutorialmod:raw_modblock"
+    "tutorialmod:moditem_ore"
   ]
 }

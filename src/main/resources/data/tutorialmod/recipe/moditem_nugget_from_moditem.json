@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "tutorialmod:moditem"
+    }
+  ],
+  "result": {
+    "id": "tutorialmod:moditem_nugget",
+    "count": 9
+  }
+}
