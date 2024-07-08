@@ -1,9 +1,11 @@
 {
   "item.tutorialmod.raw_moditem": "Raw Mod Item",
   "item.tutorialmod.moditem": "Mod Item",
+  "item.tutorialmod.moditem_nugget": "Mod Item Nugget",
 
   "block.tutorialmod.modblock": "Mod Block",
-  "block.tutorialmod.raw_modblock": "Raw Mod Block",
+  "block.tutorialmod.raw_modblock": "Raw Mod Ore Block",
+  "block.tutorialmod.moditem_ore": "Raw Mod Ore",
 
   "itemgroup.tutorialmod.modblock": "Mod Block Group"
 }

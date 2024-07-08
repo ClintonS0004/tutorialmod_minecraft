@@ -13,11 +13,14 @@ import net.minecraft.sound.BlockSoundGroup;
 public class ModBlocks {
 
     public static final Block MODBLOCK = registerBlock("modblock",
-            new Block(FabricBlockSettings.copyOf(Blocks.DIRT)));  //  or .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));  //  or .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     //                                or .create()
 
     public static final Block RAW_MODBLOCK = registerBlock("raw_modblock",
-            new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).sounds(BlockSoundGroup.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+
+    public static final Block MODITEM_ORE = registerBlock("moditem_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -3,11 +3,11 @@
   "category": "blocks",
   "ingredients": [
     {
-      "item": "tutorialmod:modblock"
+      "item": "tutorialmod:raw_modblock"
     }
   ],
   "result": {
-    "id": "tutorialmod:moditem",
-    "count": 4
+    "id": "tutorialmod:raw_moditem",
+    "count": 9
   }
 }

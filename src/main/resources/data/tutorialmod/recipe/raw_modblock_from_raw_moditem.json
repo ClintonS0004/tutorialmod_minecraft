@@ -2,15 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "blocks",
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "###",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "tutorialmod:moditem"
+      "item": "tutorialmod:raw_moditem"
     }
   },
   "result": {
-    "id": "tutorialmod:modblock"
+    "id": "tutorialmod:raw_modblock"
   }
 }

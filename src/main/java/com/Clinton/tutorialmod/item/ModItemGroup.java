@@ -16,9 +16,11 @@ public class ModItemGroup {
                 .displayName(Text.translatable("itemgroup.tutorialmod.modblock"))
                     .icon(() -> new ItemStack(ModItems.MODITEM)).entries((displayContext, entries) -> {
                         entries.add(ModItems.MODITEM);
+                        entries.add(ModItems.MODITEM_NUGGET);
                         entries.add(ModItems.RAW_MODITEM);
 //                        entries.add(Items.DIAMOND);
                         entries.add(ModBlocks.MODBLOCK);
+                        entries.add(ModBlocks.MODITEM_ORE);
                         entries.add(ModBlocks.RAW_MODBLOCK);
                     }).build();
 
