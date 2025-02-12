@@ -14,4 +14,8 @@ Here is a few things I have been playing with. From what I understand, Minecraft
 
 ## Registering Items
 
-![items](./img/2024-07-05_22.58.33.png)
+![my_blocks](./img/2024-07-05_22.58.33.png)
+
+## Code on Performance
+
+![metal_detector](./img/2024-07-08_20.47.41.png)
