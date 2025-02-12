@@ -14,4 +14,4 @@ Here is a few things I have been playing with. From what I understand, Minecraft
 
 ## Registering Items
 
-!(items)[.\run\screenshots\2024-07-05_22.58.33.png]
+![items](.\run\screenshots\2024-07-05_22.58.33.png)
